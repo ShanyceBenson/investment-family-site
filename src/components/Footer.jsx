@@ -2,7 +2,7 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="footer-content">
-        <h3>Family Legacy Investment Fund</h3>
+        <h3>Family Fund Project</h3>
 
         <p>
           Investing today. Building tomorrow.
@@ -15,7 +15,7 @@ function Footer() {
         </div>
 
         <span className="copyright">
-          © 2026 Family Legacy Investment Fund
+          © 2026 Family Fund Project
         </span>
       </div>
     </footer>
