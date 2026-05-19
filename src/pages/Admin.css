@@ -1,0 +1,74 @@
+.admin-page {
+  min-height: 75vh;
+  padding: 80px 8%;
+  background: var(--cream);
+}
+
+.admin-header {
+  max-width: 800px;
+  margin-bottom: 40px;
+}
+
+.admin-header h1 {
+  font-size: 3.5rem;
+  color: var(--dark-green);
+  margin-bottom: 16px;
+}
+
+.admin-header p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #4b4b4b;
+}
+
+.admin-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.admin-card-link {
+  text-decoration: none;
+}
+
+.admin-card {
+  background: white;
+  border: 1px solid rgba(107, 142, 35, 0.25);
+  border-radius: 28px;
+  padding: 32px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.06);
+  transition: 0.3s ease;
+}
+
+.admin-card:hover {
+  transform: translateY(-6px);
+}
+
+.admin-card h2 {
+  color: var(--soft-purple);
+  margin-bottom: 12px;
+}
+
+.admin-card p {
+  color: #4b4b4b;
+  line-height: 1.7;
+}
+
+@media (max-width: 900px) {
+  .admin-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .admin-header h1 {
+    font-size: 2.3rem;
+  }
+}
+
+.feature-card select {
+  margin: 10px 0 20px;
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  background: white;
+  font-weight: 600;
+}
